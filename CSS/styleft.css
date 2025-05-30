@@ -1,0 +1,45 @@
+/* Universal Selector */
+* {
+    font-family: monospace;
+}
+
+/* Id Selector */
+#idsec {
+    color:olive;
+}
+/* Class Selector */
+.clasec {
+      color: brown;
+      font-style: italic;
+}
+.first {
+    color: darkviolet;
+}
+.second {
+    background-color:lightpink;
+}
+.highlight {
+    background-color: rgb(32, 124, 182);
+    font-size: 30px;
+} 
+
+/* Element Selector */
+body {
+    font-size: 16px;
+    border: 3px dashed blue;
+}
+h2 {
+   color: orange;
+}
+p {
+    color: blue;
+}
+span {
+    color:darkmagenta;
+}
+
+/* Group Selector */
+h4,h5,h6,blockquote {
+    border: 2px solid darkcyan;
+}
+

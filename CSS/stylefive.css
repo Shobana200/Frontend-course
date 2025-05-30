@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color:lightcoral;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: 'header header header'
+                        'sidebar main rightsidebar'
+                        'footer footer footer';
+    gap: 10px;
+    grid-template-rows: 100px 460px 112px;
+}
+.container > div {
+    background-color:lightseagreen;
+    font-size: 2rem;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.items-1 {
+    grid-area:header ;
+}
+.items-2 {
+    grid-area:sidebar ;
+}
+.items-3 {
+    grid-area:main ;
+}.items-4 {
+    grid-area: rightsidebar ;
+}.items-5 {
+    grid-area:footer ;
+
+}
+
+
+
+
+
+ 
+/*  RESPONSIVE WEB DESIGN */
+/*   1. MOBILE (0px to 425px)*/
+@media screen and (max-width:425px) {
+    body {
+        font-size: 1rem;
+    }
+    .container {
+        /*background-color: aqua;*/
+        font-family: monospace;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .container > div {
+        border-radius:2px ;
+        padding: 3px;
+        font-size:1rem;
+    }
+    .items-1 {
+        font-size: 3px;
+    }
+    .items-2 {
+        font-size: 3px;
+    }
+    .items-3 {
+        font-size: 3px;
+    }
+    .items-4 {
+        font-size: 3px;
+    }
+    .items-5 {
+        font-size: 3px;
+    }
+}
+/*  2. TABLET ( 425px to 768px) */
+@media screen and (min-width:425px) and (max-width:768px) {
+    body {
+        font-size: 2rem;
+    }
+    .container {
+        background-color:darkgrey;
+        font-family:'Times New Roman', Times, serif;
+        padding: 10px;
+        font-size: 25px;
+    }
+    .container > div {
+        border-radius:4px ;
+        padding: 6px;
+        font-size:2rem;
+    }
+    .items-1 {
+        font-size: 5px;
+    }
+    .items-2 {
+        font-size: 5px;
+    }
+    .items-3 {
+        font-size: 5px;
+    }
+    .items-4 {
+        font-size: 5px;
+    }
+    .items-5 {
+        font-size: 5px;
+    }
+}
+/*  3. LAPTOP ( 768px to 1024px)*/
+@media screen and (min-width:768px) and (max-width:1024px) {
+    body {
+        font-size: 3rem;
+    }
+    .container {
+        background-color:darkgoldenrod;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding: 7px;
+        font-size: 30px;
+    }
+    .container > div {
+        border-radius:6px ;
+        padding: 8px;
+        font-size:3rem;
+    }
+    .items-1 {
+        font-size: 7px;
+    }
+    .items-2 {
+        font-size: 7px;
+    }
+    .items-3 {
+        font-size: 7px;
+    }
+    .items-4 {
+        font-size: 7px;
+    }
+    .items-5 {
+        font-size: 7px;
+    }
+}
+/*  4. MONITOR ( 425px to 768px)*/
+@media screen and (min-width:1024px) and (max-width:1400px) {
+    body {
+        font-size: 4rem;
+    }
+    .container {
+        background-color: darkviolet;
+        font-family: serif;
+        padding: 9px;
+        font-size: 35px;
+    }
+    .container > div {
+        border-radius:8px ;
+        padding: 10px;
+        font-size: 4rem;
+    }
+    .items-1 {
+        font-size: 3px;
+    }
+    .items-2 {
+        font-size: 3px;
+    }
+    .items-3 {
+        font-size: 3px;
+    }
+    .items-4 {
+        font-size: 3px;
+    }
+    .items-5 {
+        font-size: 3px;
+    }
+}

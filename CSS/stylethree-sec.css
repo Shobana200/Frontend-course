@@ -1,0 +1,72 @@
+/*TRANSLATE*/
+.translate {
+    font-size: 25px;
+    background-color: lightgreen;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    color:darkviolet;
+    transform: translate(200px,100px);
+}
+/* ROTATE */
+.rotate {
+    font-size: 25px;
+    background-color: lightgray;
+    width: 350px;
+    height: 250px;
+    margin: 110px;
+    padding: 20px;
+    color: chocolate;
+}
+
+.rotate:hover{
+    transform: rotate(180deg);
+}
+
+/*  SCALE */
+.scale {
+    font-size: 25px;
+    background-color: lightskyblue;
+    width: 350px;
+    height: 250px;
+    margin: 90px;
+    padding: 20px;
+    color: chocolate;
+}
+
+.scale:hover{
+    transform: scale(1.4); /* scale(0.8, 1.4)*/
+}
+
+/*  SKEW */
+.skew {
+    font-size: 25px;
+    background-color: lightcoral;
+    width: 350px;
+    height: 250px;
+    margin: 90px;
+    padding: 20px;
+    color:green;
+}
+
+.skew:hover{
+    transform: skew(15deg,40deg); /* skewX, skewY */
+}
+
+/* CSS TRANSITION */
+.transition {
+    background-color: lime;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    transition: width 2s,height 2s;
+    transition-duration: 3s;
+    transition-timing-function:linear;
+}
+.transition:hover {
+    width: 300px;
+    height: 300px;
+    transition-delay: 1s;
+
+}
